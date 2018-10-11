@@ -14,5 +14,6 @@ f = open("subdomain.txt", "w")
 
 for i in subdomains:
     f.write(i.encode('utf-8') + '\n ')
+    print i
 
 f.close()
